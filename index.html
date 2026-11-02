@@ -5,15 +5,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jutwood · a balance game for iPhone</title>
 <meta name="description" content="Jutwood: beavers stack sawn planks out over a river. Nothing gets cut off; lean too far and the stack tips into the water. 60 levels and an endless river. No ads, no tracking. Coming soon to the App Store.">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#26605E">
 <link rel="canonical" href="https://nguyenvanlamm.github.io/jutwood-site/">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+<link rel="alternate" type="text/plain" title="llms.txt" href="llms.txt">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Jutwood">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="Jutwood: how far out can a stack of planks reach?">
 <meta property="og:description" content="Beavers stack sawn planks out over a river. Lean too far and the stack tips into the water. Coming soon to the App Store.">
 <meta property="og:url" content="https://nguyenvanlamm.github.io/jutwood-site/">
-<meta property="og:image" content="https://nguyenvanlamm.github.io/jutwood-site/assets/game.webp">
+<meta property="og:image" content="https://nguyenvanlamm.github.io/jutwood-site/assets/share-card.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Jutwood: a stack of sawn planks leaning out from a riverbank over the water, past blue stakes in the river.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jutwood: how far out can a stack of planks reach?">
+<meta name="twitter:description" content="A balance game for iPhone: beavers stack planks out over a river, and nothing gets cut off. No ads, no tracking. Coming soon to the App Store.">
+<meta name="twitter:image" content="https://nguyenvanlamm.github.io/jutwood-site/assets/share-card.jpg">
+<meta name="twitter:image:alt" content="Jutwood: a stack of sawn planks leaning out from a riverbank over the water, past blue stakes in the river.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://nguyenvanlamm.github.io/jutwood-site/#website",
+      "name": "Jutwood",
+      "url": "https://nguyenvanlamm.github.io/jutwood-site/",
+      "inLanguage": "en",
+      "about": { "@id": "https://nguyenvanlamm.github.io/jutwood-site/#game" }
+    },
+    {
+      "@type": ["VideoGame", "MobileApplication"],
+      "@id": "https://nguyenvanlamm.github.io/jutwood-site/#game",
+      "name": "Jutwood",
+      "description": "A balance game for iPhone. Beavers stack sawn planks out over a river, one at a time. Nothing gets cut off: each plank rests on the one below, and the stack holds only while the weight above every plank still sits over it; lean too far and it tips into the water. Pass the stakes in the river for stars. 60 levels in three rivers (Creek, Millpond, Rapids) plus Free Reach, an endless river scored by reach. Creek and Free Reach are free; Far Banks opens Millpond and Rapids with one purchase. No ads, no account, no tracking. Coming soon to the App Store.",
+      "url": "https://nguyenvanlamm.github.io/jutwood-site/",
+      "image": "https://nguyenvanlamm.github.io/jutwood-site/assets/share-card.jpg",
+      "screenshot": [
+        "https://nguyenvanlamm.github.io/jutwood-site/assets/game.webp",
+        "https://nguyenvanlamm.github.io/jutwood-site/assets/game3.webp",
+        "https://nguyenvanlamm.github.io/jutwood-site/assets/levels.webp"
+      ],
+      "gamePlatform": "iPhone",
+      "operatingSystem": "iOS 15 or later",
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Puzzle",
+      "genre": ["Puzzle", "Casual"],
+      "playMode": "SinglePlayer",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "keywords": "balance game, stacking planks, physics puzzle, beavers, river, offline game, no ads"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nguyenvanlamm.github.io/jutwood-site/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Are there ads or tracking?", "acceptedAnswer": { "@type": "Answer", "text": "No. No ads, no analytics, no account. Your progress stays on your device." } },
+        { "@type": "Question", "name": "Do I need to buy anything?", "acceptedAnswer": { "@type": "Answer", "text": "No. Creek and Free Reach are free, and you can earn tools by playing." } },
+        { "@type": "Question", "name": "I bought Far Banks before. How do I get it back?", "acceptedAnswer": { "@type": "Answer", "text": "Open Settings → Restore purchases in the game, signed in with the same App Store account." } },
+        { "@type": "Question", "name": "Which devices?", "acceptedAnswer": { "@type": "Answer", "text": "iPhone with iOS 15 or later." } }
+      ]
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -40,7 +101,7 @@
   .badge { display: inline-block; background: var(--ink); color: var(--paper); border-radius: 12px; padding: 12px 20px; font-weight: 700; }
   .badge small { display: block; font-weight: 500; opacity: 0.8; font-size: 13px; }
   .more { margin-left: 18px; font-weight: 600; }
-  .phone { width: 100%; max-width: 320px; justify-self: center; border-radius: 28px; border: 6px solid var(--ink); box-shadow: 0 18px 40px rgba(16, 64, 66, 0.25); }
+  .phone { width: 100%; height: auto; max-width: 320px; justify-self: center; border-radius: 28px; border: 6px solid var(--ink); box-shadow: 0 18px 40px rgba(16, 64, 66, 0.25); }
   section { padding: 56px 0; border-bottom: 1px solid var(--line); }
   h2 { font: 800 38px/1.05 "Big Shoulders Display", sans-serif; margin: 0 0 16px; }
   .how { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
@@ -49,7 +110,7 @@
   .features h3 { font: 700 26px/1.1 "Big Shoulders Display", sans-serif; margin: 0 0 8px; color: var(--river); }
   @media (prefers-color-scheme: dark) { .features h3 { color: #7FC4BF; } }
   .shots { display: flex; gap: 20px; overflow-x: auto; padding: 4px 0 12px; }
-  .shots img { width: 230px; flex: none; border-radius: 20px; border: 5px solid var(--ink); }
+  .shots img { width: 230px; height: auto; flex: none; border-radius: 20px; border: 5px solid var(--ink); }
   .price { font-size: 19px; max-width: 40em; }
   dl { margin: 0; } dt { font-weight: 700; margin-top: 18px; } dd { margin: 4px 0 0; color: var(--ink2); }
   footer { padding: 32px 0 48px; color: var(--ink2); font-size: 15px; }
