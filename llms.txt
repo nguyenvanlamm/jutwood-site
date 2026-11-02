@@ -1,0 +1,16 @@
+# Jutwood
+
+> Jutwood is a balance game for iPhone. Beavers stack sawn planks out over a river, one at a time, to see how far out the stack can reach. Nothing gets cut off: each plank rests on the one below, and the stack holds only while the weight above every plank still sits over it; lean too far and everything above tips into the water. Coming soon to the App Store; there is no store link yet.
+
+- How to play: tap to drop the sliding plank. Lean the top planks far out and keep the bottom ones back over the bank. Pass the stakes in the river for stars, and tap Done to keep your reach. In Rapids, span the river to the far bank.
+- Content: 60 levels in three rivers of 20 each. Creek teaches the lean; Millpond brings long planks, short ones, oak beams and stones; Rapids asks for a span to the far bank. Free Reach is an endless river where the best reach is the score.
+- Tools: Rope takes back the last drop, a Spare Plank adds one more, and the Plumb Line shows where each layer balances. Tools are also found on the bank the first time certain levels are cleared.
+- Free: Creek (20 levels) and Free Reach. Optional in-app purchases: Far Banks ($3.99, one time: Millpond and Rapids, 40 levels) and Lumber Cart ($0.99: 4 Rope, 3 Spare Plank, 3 Plumb Line).
+- No ads, no account, no analytics or tracking. Progress stays on the iPhone; it is not synced. Restore purchases is in Settings.
+- Platform: iPhone with iOS 15 or later. The game is in English.
+
+## Pages
+
+- [Home](https://nguyenvanlamm.github.io/jutwood-site/): what the game is, how it plays, prices, questions
+- [Support](https://nguyenvanlamm.github.io/jutwood-site/support.html): contact, how to play, purchases and restoring, progress
+- [Privacy Policy](https://nguyenvanlamm.github.io/jutwood-site/privacy.html): what the game stores on the device and what it never collects
